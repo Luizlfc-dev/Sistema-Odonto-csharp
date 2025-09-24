@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaOdonto", "SistemaOdonto\SistemaOdonto.csproj", "{CEC69C0B-63FD-43F1-8955-538E852F159C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{6DC1B57B-326A-48AB-8D8E-AB6C9B981DA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{0AF054BD-E487-4CC4-B3A6-E8AFA890E3C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{D445BB7A-E28C-40B1-9C6C-50BA052EFF57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{11FA5A66-0244-4490-A901-16DE03D9E7E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{80ED0E99-98DB-4FFE-97A0-7873098DA706}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,22 @@ Global
 		{CEC69C0B-63FD-43F1-8955-538E852F159C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEC69C0B-63FD-43F1-8955-538E852F159C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEC69C0B-63FD-43F1-8955-538E852F159C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FA5A66-0244-4490-A901-16DE03D9E7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FA5A66-0244-4490-A901-16DE03D9E7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FA5A66-0244-4490-A901-16DE03D9E7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FA5A66-0244-4490-A901-16DE03D9E7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80ED0E99-98DB-4FFE-97A0-7873098DA706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80ED0E99-98DB-4FFE-97A0-7873098DA706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80ED0E99-98DB-4FFE-97A0-7873098DA706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80ED0E99-98DB-4FFE-97A0-7873098DA706}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEC69C0B-63FD-43F1-8955-538E852F159C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{11FA5A66-0244-4490-A901-16DE03D9E7E1} = {0AF054BD-E487-4CC4-B3A6-E8AFA890E3C3}
+		{80ED0E99-98DB-4FFE-97A0-7873098DA706} = {D445BB7A-E28C-40B1-9C6C-50BA052EFF57}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB204E89-5A17-4159-9B55-73915FF321A0}
