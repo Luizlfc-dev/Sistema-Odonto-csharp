@@ -1,0 +1,19 @@
+# Pasta de cache e configurações do Visual Studio
+/.vs/
+
+# Pastas de compilação
+[Bb]in/
+[Oo]bj/
+
+# Arquivos de usuário específicos
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos gerados pelo Rider
+.idea/
+*.sln.iml
+
+# Pacotes do NuGet (versões antigas)
+[Pp]ackages/
