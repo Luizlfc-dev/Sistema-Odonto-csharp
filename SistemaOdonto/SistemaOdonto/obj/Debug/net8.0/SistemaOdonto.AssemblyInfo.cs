@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaOdonto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+893e2e93d2572e86c180ad81de19ce9463e06ed0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24cd11f35d17e687dcfccf850ddd8f9a123da6ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaOdonto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaOdonto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
