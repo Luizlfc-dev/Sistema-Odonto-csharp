@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|c:\\users\\luiz felipe\\odonto\\sistemaodonto\\controllers\\map\\dentistamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|solutionrelative:controllers\\map\\dentistamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80ED0E99-98DB-4FFE-97A0-7873098DA706}|Entidades\\Entidades.csproj|c:\\users\\luiz felipe\\odonto\\sistemaodonto\\entidades\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80ED0E99-98DB-4FFE-97A0-7873098DA706}|Entidades\\Entidades.csproj|solutionrelative:entidades\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|c:\\users\\luiz felipe\\odonto\\sistemaodonto\\controllers\\map\\pacientemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|solutionrelative:controllers\\map\\pacientemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\controllers\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|solutionrelative:controllers\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|c:\\users\\luiz felipe\\odonto\\sistemaodonto\\controllers\\context\\sistemacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|solutionrelative:controllers\\context\\sistemacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|c:\\users\\luiz felipe\\odonto\\sistemaodonto\\controllers\\map\\consultamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\controllers\\migrations\\202509251541072_banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|solutionrelative:controllers\\migrations\\202509251541072_banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\controllers\\map\\consultamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|solutionrelative:controllers\\map\\consultamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\controllers\\map\\pacientemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FA5A66-0244-4490-A901-16DE03D9E7E1}|Controllers\\Controllers.csproj|solutionrelative:controllers\\map\\pacientemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ED0E99-98DB-4FFE-97A0-7873098DA706}|Entidades\\Entidades.csproj|C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\entidades\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80ED0E99-98DB-4FFE-97A0-7873098DA706}|Entidades\\Entidades.csproj|solutionrelative:entidades\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ED0E99-98DB-4FFE-97A0-7873098DA706}|Entidades\\Entidades.csproj|C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80ED0E99-98DB-4FFE-97A0-7873098DA706}|Entidades\\Entidades.csproj|solutionrelative:entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +38,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Entidades\\Class1.cs",
-              "RelativeDocumentMoniker": "Entidades\\Class1.cs",
-              "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Entidades\\Class1.cs",
-              "RelativeToolTip": "Entidades\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "202509251541072_banco.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Migrations\\202509251541072_banco.cs",
+              "RelativeDocumentMoniker": "Controllers\\Migrations\\202509251541072_banco.cs",
+              "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Migrations\\202509251541072_banco.cs",
+              "RelativeToolTip": "Controllers\\Migrations\\202509251541072_banco.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:15:19.413Z",
+              "WhenOpened": "2025-09-25T15:41:30.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Controllers\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Controllers\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T15:34:30.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Entidades\\Consulta.cs",
+              "RelativeDocumentMoniker": "Entidades\\Consulta.cs",
+              "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Entidades\\Consulta.cs",
+              "RelativeToolTip": "Entidades\\Consulta.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:46:56.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Entidades\\Paciente.cs",
+              "RelativeDocumentMoniker": "Entidades\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Entidades\\Paciente.cs",
+              "RelativeToolTip": "Entidades\\Paciente.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:46:41.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ConsultaMap.cs",
               "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Map\\ConsultaMap.cs",
               "RelativeDocumentMoniker": "Controllers\\Map\\ConsultaMap.cs",
               "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Map\\ConsultaMap.cs",
               "RelativeToolTip": "Controllers\\Map\\ConsultaMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T15:53:13.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T15:53:13.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PacienteMap.cs",
               "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Map\\PacienteMap.cs",
               "RelativeDocumentMoniker": "Controllers\\Map\\PacienteMap.cs",
               "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Map\\PacienteMap.cs",
               "RelativeToolTip": "Controllers\\Map\\PacienteMap.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T15:53:00.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T15:53:00.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DentistaMap.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Map\\DentistaMap.cs",
-              "RelativeDocumentMoniker": "Controllers\\Map\\DentistaMap.cs",
-              "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Map\\DentistaMap.cs",
-              "RelativeToolTip": "Controllers\\Map\\DentistaMap.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T15:51:10.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SistemaContext.cs",
               "DocumentMoniker": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Context\\SistemaContext.cs",
               "RelativeDocumentMoniker": "Controllers\\Context\\SistemaContext.cs",
               "ToolTip": "C:\\Users\\Luiz Felipe\\Odonto\\SistemaOdonto\\Controllers\\Context\\SistemaContext.cs",
               "RelativeToolTip": "Controllers\\Context\\SistemaContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T15:04:25.382Z",
               "EditorCaption": ""
