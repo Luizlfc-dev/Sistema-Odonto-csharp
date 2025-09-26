@@ -44,6 +44,13 @@
             this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.txtCelular = new System.Windows.Forms.MaskedTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusMsg = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -125,21 +132,21 @@
             // 
             this.txtNome.Location = new System.Drawing.Point(165, 89);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(100, 20);
+            this.txtNome.Size = new System.Drawing.Size(146, 20);
             this.txtNome.TabIndex = 8;
             // 
             // txtEspecialidade
             // 
             this.txtEspecialidade.Location = new System.Drawing.Point(165, 149);
             this.txtEspecialidade.Name = "txtEspecialidade";
-            this.txtEspecialidade.Size = new System.Drawing.Size(100, 20);
+            this.txtEspecialidade.Size = new System.Drawing.Size(146, 20);
             this.txtEspecialidade.TabIndex = 10;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(165, 181);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 20);
+            this.txtEmail.Size = new System.Drawing.Size(146, 20);
             this.txtEmail.TabIndex = 11;
             // 
             // txtCro
@@ -147,7 +154,7 @@
             this.txtCro.Location = new System.Drawing.Point(165, 117);
             this.txtCro.Mask = "?? 00-000";
             this.txtCro.Name = "txtCro";
-            this.txtCro.Size = new System.Drawing.Size(100, 20);
+            this.txtCro.Size = new System.Drawing.Size(146, 20);
             this.txtCro.TabIndex = 12;
             // 
             // txtTelefone
@@ -155,7 +162,7 @@
             this.txtTelefone.Location = new System.Drawing.Point(165, 213);
             this.txtTelefone.Mask = "(00) 0000-0000";
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefone.Size = new System.Drawing.Size(146, 20);
             this.txtTelefone.TabIndex = 13;
             // 
             // txtCelular
@@ -163,23 +170,92 @@
             this.txtCelular.Location = new System.Drawing.Point(165, 243);
             this.txtCelular.Mask = "(00) 90000-0000";
             this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(100, 20);
+            this.txtCelular.Size = new System.Drawing.Size(146, 20);
             this.txtCelular.TabIndex = 14;
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Location = new System.Drawing.Point(317, 27);
+            this.panel1.Location = new System.Drawing.Point(350, 52);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(259, 253);
+            this.panel1.Size = new System.Drawing.Size(257, 252);
             this.panel1.TabIndex = 15;
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalvar.FlatAppearance.BorderColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnSalvar.FlatAppearance.BorderSize = 0;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
+            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvar.Location = new System.Drawing.Point(98, 277);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(61, 57);
+            this.btnSalvar.TabIndex = 16;
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditar.FlatAppearance.BorderColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnEditar.FlatAppearance.BorderSize = 0;
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
+            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditar.Location = new System.Drawing.Point(174, 277);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(61, 57);
+            this.btnEditar.TabIndex = 18;
+            this.btnEditar.UseVisualStyleBackColor = true;
+            // 
+            // btnExcluir
+            // 
+            this.btnExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExcluir.FlatAppearance.BorderColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnExcluir.FlatAppearance.BorderSize = 0;
+            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
+            this.btnExcluir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExcluir.Location = new System.Drawing.Point(250, 277);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(61, 57);
+            this.btnExcluir.TabIndex = 19;
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.toolStripStatusMsg});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 360);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(648, 22);
+            this.statusStrip1.TabIndex = 20;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(69, 17);
+            this.toolStripStatusLabel1.Text = "Mensagem:";
+            // 
+            // toolStripStatusMsg
+            // 
+            this.toolStripStatusMsg.Name = "toolStripStatusMsg";
+            this.toolStripStatusMsg.Size = new System.Drawing.Size(54, 17);
+            this.toolStripStatusMsg.Text = "Nenhum";
             // 
             // frmCadDentista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(648, 382);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtCelular);
             this.Controls.Add(this.txtTelefone);
@@ -195,10 +271,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCadDentista";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Dentistas";
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,5 +300,11 @@
         private System.Windows.Forms.MaskedTextBox txtTelefone;
         private System.Windows.Forms.MaskedTextBox txtCelular;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusMsg;
     }
 }
