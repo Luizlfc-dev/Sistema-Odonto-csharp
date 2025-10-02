@@ -20,39 +20,6 @@ namespace Sistema_Odonto
             InitializeComponent();
             txtNome.Text = txtCelular.Text;
         }
-        private string ValidarCad(){
-            ts.ForeColor = Color.Red;
-            if (txtNome.Text == "")
-            {
-                return "O campo Nome é obrigatório.\n";
-            }
-            else if (txtCelular.Text == "")
-            {
-                return "O campo Celular é obrigatório.\n";
-            }
-            else if (txtEmail.Text == "")
-            {
-                return "O campo Email é obrigatório.\n";
-            }
-            else if (txtCro.Text == "")
-            {
-                return "O campo CRO é obrigatório.\n";
-            }
-            else if (txtEspecialidade.Text == "")
-            {
-                return "O campo Especialidade é obrigatório.\n";
-            }
-            else if (txtTelefone.Text == "")
-            {
-                return "O campo Telefone é obrigatório.\n";
-            } 
-            else
-            {
-                ts.ForeColor = Color.Blue;
-                return "Sucesso!";
-            }
-                
-        }
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -125,6 +92,44 @@ namespace Sistema_Odonto
             txtEspecialidade.Text = "";
             txtTelefone.Text = "";
         }
+        private string ValidarCad()
+        {
+            ts.ForeColor = Color.Red;
+            if (txtNome.Text == "")
+            {
+                return "O campo Nome é obrigatório.\n";
+            }
+            else if (txtCelular.Text == "")
+            {
+                return "O campo Celular é obrigatório.\n";
+            }
+            else if (txtEmail.Text == "")
+            {
+                return "O campo Email é obrigatório.\n";
+            }
+            else if (txtCro.Text == "")
+            {
+                return "O campo CRO é obrigatório.\n";
+            }
+            else if (txtEspecialidade.Text == "")
+            {
+                return "O campo Especialidade é obrigatório.\n";
+            }
+            else if (txtTelefone.Text == "")
+            {
+                return "O campo Telefone é obrigatório.\n";
+            }
+            else
+            {
+                ts.ForeColor = Color.Blue;
+                return "Sucesso!";
+            }
+
+        }
+
+
+
+
     }
 
 

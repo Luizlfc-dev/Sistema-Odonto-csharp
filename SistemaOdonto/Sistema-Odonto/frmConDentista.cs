@@ -71,8 +71,8 @@ namespace Sistema_Odonto
             data.Rows[linhaAtual].Cells[1].Value = dado.Nome;
             data.Rows[linhaAtual].Cells[2].Value = dado.Cro;
             data.Rows[linhaAtual].Cells[3].Value = dado.Especialidade;
-            data.Rows[linhaAtual].Cells[4].Value = dado.Telefone;
-            data.Rows[linhaAtual].Cells[5].Value = dado.Celular;
+            data.Rows[linhaAtual].Cells[4].Value = dado.Telefone.ToString("(00) 0000-0000");
+            data.Rows[linhaAtual].Cells[5].Value = dado.Celular.ToString("(00) 00000-0000");
 
 
 
@@ -108,8 +108,50 @@ namespace Sistema_Odonto
             dg.Columns.Add("Telefone", "Telefone");
             dg.Columns.Add("Celular", "Celular");
 
+            dg.CellContentClick += new DataGridViewCellEventHandler(this.tb_click);
 
+        }
 
+        private void tb_click(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridView dg = sender as DataGridView;
+            try
+            {
+                if (e.ColumnIndex == 1 && e.RowIndex != -1)
+                {
+                   int id = Convert.ToInt32(dg.Rows[e.RowIndex].Cells[0].Value);
+                   Dentista obj = service.Buscar(Convert.ToInt32(id));
+                   if (obj != null)
+                   {
+                      var form = new frmEditarDentista(obj);
+                      form.ShowDialog();
+                      if (form.status == "Apagado")
+                      {
+                         this.Close();
+                         frmConDentista frm = new frmConDentista();
+                         frm.ShowDialog();
+
+                      }
+                      else if (form.status == "Editado")
+                      {
+                         dg.Rows.RemoveAt(e.RowIndex);
+                         GerarLinha(dg, obj);
+                         
+                      }
+
+                   }
+                   else
+                   {
+                       MessageBox.Show("Dentista não encontrado.");
+                   }
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao selecionar o dentista: " + ex.Message);
+
+            }
         }
     }
 }

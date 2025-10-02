@@ -88,6 +88,7 @@
             this.btnExcluir.Size = new System.Drawing.Size(61, 57);
             this.btnExcluir.TabIndex = 38;
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnEditar
             // 
@@ -102,6 +103,7 @@
             this.btnEditar.Size = new System.Drawing.Size(61, 57);
             this.btnEditar.TabIndex = 37;
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // panel1
             // 
@@ -259,7 +261,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmEditarDentista";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Consulta de Dentistas";
+            this.Text = "Atualizar Dentista";
+            this.Load += new System.EventHandler(this.frmEditarDentista_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
